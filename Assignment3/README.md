@@ -11,7 +11,7 @@ Something that I struggled with a little bit was linking images. I kept forgetti
    - If the code works, but not the way you intended, retype it or try to do it another way.
  
 Here is a image!
+![screenshot](./images/screenshot.jpg)
 
-
-[Here is a link to that same image!](screenshot.jpg)
+[Here is a link to that same image!](./images/screenshot.jpg)
 
