@@ -1,7 +1,10 @@
  Brianna Thompson
+
  MART342 Digital Images I
- Assignment 6
- October 6, 2024
+
+  October 6, 2024
+
+ **Assignment 6** 
  
  1. In 2-3 sentences, explain which idea you've chosen to develop further and why. Feel free to expand on the tone or style you plan to use for the site (e.g., professional, playful, modern).
  
