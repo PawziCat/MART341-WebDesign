@@ -44,5 +44,6 @@ I used the &copy; escape character to display the copyright symbol (©) in the f
 ### Personal Notes:
 
 I was unable to put in the accordon menu/table for my programs page. I intend to add this if this project is continued into the next week.
+I need to fix the green on the logo, it is not the same color as the webpage theme.
 
 
