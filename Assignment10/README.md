@@ -30,6 +30,6 @@ These were dont to give individual elements their own styles.
 ### Select at Least Three Additional Techniques:
 * Different background colors
 * Positioning
-* Text Alignment
+* Tex, block, image, and video Alignment
 * Margins
 * Padding
