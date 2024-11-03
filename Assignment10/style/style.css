@@ -53,6 +53,7 @@ nav ul li a {
     width: 99%;
     height: auto;
     display: block;
+    justify-content: center;
     float: center;
 }
 
