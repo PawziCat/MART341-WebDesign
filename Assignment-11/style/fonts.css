@@ -10,15 +10,15 @@
     src: url('../fonts/quicksand-bold.otf') format('opentype');
     font-weight: 700;
  }
- 
- @font-face {
-    font-family: 'retrolight', 'sans-serif';
-    src: url('../fonts/retrolight.otf') format('opentype');
-   font-style: normal;
-}
 
 @font-face {
    font-family: 'retrolight', 'sans-serif';
    src: url('../fonts/retrolight.otf') format('opentype');
-   font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'retrolight', 'sans-serif';
+  src: url('../fonts/retrolight.otf') format('opentype');
+  font-weight: 700;
 }

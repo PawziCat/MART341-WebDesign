@@ -9,12 +9,12 @@
 }
 
 body {
-    font-family: 'quicksand', 'sans-serif';
+    font-family: 'quicksand', 'impact';
     background-color: #f4f4f4;
 }
 
 p{
-    font-family: 'quicksand', 'sans-serif';
+    font-family: 'quicksand', 'impact';
     font-size: 16px;
 }
 
@@ -40,9 +40,10 @@ h1, h3, h5{
 
 /* links */
 a:link {
+    font-size: 20px;
    color: #000;
    text-decoration: none;
-   font-family: 'retrolight', 'sans-serif';
+   font-family: 'retrolight', 'sans-serif'; 
 }
 
 a:visited {
@@ -52,7 +53,8 @@ a:visited {
 
 a:hover {
    color: #9bdeea;
-   font-style: bold;
+   font-weight: bold;
+   text-decoration: underline;
 }
 
 /* Navigation styling */
@@ -188,6 +190,33 @@ nav ul li {
     background-color: #9bdeea;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    gap: 20px; /* Spacing between columns */
+    padding: 50px; /* Padding on top, bottom, and sides */
+}
+
+.column-left {
+    background-color: #9bdeea; /* Left column background color */
+    padding: 40px;
+    text-align: center;
+}
+
+.column-right {
+    background-color: #f8f8f8; /* Right column background color */
+    padding: 20px;
+    text-align: center;
+}
+
+.centered-image {
+    max-width: 100%; /* Keeps image within column width */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Removes inline spacing */
+    margin: 0 auto; /* Centers image horizontally */
+}
+
+
 
 /* Styling for blockquote and author */
 blockquote {
@@ -205,7 +234,7 @@ blockquote {
 }
 
 #quote-author-about {
-    font-size: 1em;
+    font-size: 18px;
     color: #9bdeea;
     margin-top: 5px;
     text-align: center;
