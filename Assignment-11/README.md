@@ -1,35 +1,36 @@
- Brianna Thompson
+Brianna Thompson
 
- MART342 Digital Images I
+MART342 Digital Images I
 
-  October 27, 2024
+October 27, 2024
 
-## Assignment 10
+## Assignment 11
 
  
- ### Site
- I am working on my online portfolio for my graphic design business I focused mostly on my homepage/gallery.
+### Page
+I am working on my online portfolio for my graphic design business I focused on my About page.
 
- ### Required Techniques (Must Have):
- #### Class Selectors
- These were done to control the styles of elements that repeat throughout the website.
-* The navigation bar
-* Links
-* Logo
-* Banner images
-* The columns of my gallery blocks
-* Padding
-* Body
-* The full width video
-* The footer
-#### ID Selectors
-These were dont to give individual elements their own styles.
-* To help distinguish the individual blocks in my gallery. 
-* The blockquotes and authors
 
-### Select at Least Three Additional Techniques:
-* Different background colors
-* Positioning
-* Tex, block, image, and video Alignment
-* Margins
-* Padding
+### Required Techniques (Must Have):
+#### External Style Sheets:
+* I used two seperate external style sheets, one for my styles and the other specifically for my fonts. I started out with only sans-serif fonts but ended up moving towards monospace as it reads better.
+
+
+#### Hover Effect:
+* I used hover to make my navigation bar links turn blue and become underlined when hovered over.
+
+
+#### Self-hosted Library **AND** Font from a Library
+* I am not 100% sure that I did these right? I used three fonts:
+  - Retrolight (downloaded from Dafont. It is placed in the font folder and linkd to the font style sheet.)
+  - poppins (downloaded from google fonts. It is placed in the font folder and linked to the font style sheet.)
+  - Sans-serif (chosen for my alt due to being a supported font.)  
+
+
+#### Additional Techniques:
+* I experiemented with different type faces.
+* Adjust font-weight for emphasis
+* Use text-decoration to add a hover effect that caused the navigation links to chage blue and become underlined.
+* Adjust the line-heightspacing to improve readability.
+* Align text or elements to better control the flow of my site's content.
+* I used pseudo-classes to style my links and navigation bar.

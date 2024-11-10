@@ -9,13 +9,15 @@
 }
 
 body {
-    font-family: 'quicksand', 'impact';
+    font-family: 'poppins-regular', 'sans-serif';
+    line-height: 1.45em;
     background-color: #f4f4f4;
 }
 
 p{
-    font-family: 'quicksand', 'impact';
-    font-size: 16px;
+    font-family: 'poppins-bold', 'sans-serif';
+    font-size: 18px;
+    line-height: 1.45em;
 }
 
 h1, h3, h5{
@@ -28,13 +30,16 @@ h1, h3, h5{
     font-size: 18px;
     text-indent: 10px;
     text-align: left;
+    line-height: 1.45em;
 }
 
 .second-paragraph{
     font-size: 16px;
+    text-indent: 10px;
     text-align: left;
     font-weight:500;
     text-align: center;
+    line-height: 1.45em;
 }
 
 
@@ -220,10 +225,11 @@ nav ul li {
 
 /* Styling for blockquote and author */
 blockquote {
-    font-size: 1.5em;
+    font-size: 18px;
     font-style: bold;
     margin-bottom: 10px;
     text-align: center;
+    line-height: 1.45em;
 }
 
 #quote-author {
@@ -252,6 +258,7 @@ blockquote {
 
 /* Footer styling */
 footer {
+    font-family: 'poppins', 'sans-serif';
     background-color: #000000;
     color: white;
     text-align: center;

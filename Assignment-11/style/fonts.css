@@ -1,24 +1,25 @@
 /* This is the file, "fonts.css." */
 @font-face {
-    font-family: 'quicksand,' 'sans-serif';
-    src: url('../fonts/quicksand-book.otf') format('opentype');
-    font-style: normal;
- }
-
- @font-face {
-    font-family: 'quicksand', 'sans-serif';
-    src: url('../fonts/quicksand-bold.otf') format('opentype');
-    font-weight: 700;
- }
-
-@font-face {
    font-family: 'retrolight', 'sans-serif';
-   src: url('../fonts/retrolight.otf') format('opentype');
+   src: url('../fonts/retrolight.ttf') format('truetype');
   font-style: normal;
 }
 
 @font-face {
   font-family: 'retrolight', 'sans-serif';
-  src: url('../fonts/retrolight.otf') format('opentype');
+  src: url('../fonts/retrolight.ttf') format('truetype');
   font-weight: 700;
+}
+
+
+@font-face {
+   font-family: 'poppins-regular', 'sans-serif';
+   src: url('../fonts/poppins-regular.ttf') format('truetype');
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'poppins-bold', 'sans-serif';
+   src: url('../fonts/poppins-bold.ttf') format('truetype');
+   font-weight: 700;
 }
