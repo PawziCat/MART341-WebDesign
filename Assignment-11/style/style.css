@@ -9,31 +9,31 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'quicksand', 'sans-serif';
     background-color: #f4f4f4;
 }
 
 p{
-    font-family: sans-serif;
+    font-family: 'quicksand', 'sans-serif';
     font-size: 16px;
 }
 
 h1, h3, h5{
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'retrolight', 'sans-serif';
 }
 
 .opening-paragraph{
     color: #000;
-    font-size: 20px;
-    font-weight:700;
+    font-size: 18px;
+    text-indent: 10px;
     text-align: left;
 }
 
 .second-paragraph{
     font-size: 16px;
     text-align: left;
-    text-indent: 10px;
+    font-weight:500;
     text-align: center;
 }
 
@@ -42,6 +42,7 @@ h1, h3, h5{
 a:link {
    color: #000;
    text-decoration: none;
+   font-family: 'retrolight', 'sans-serif';
 }
 
 a:visited {
@@ -51,7 +52,7 @@ a:visited {
 
 a:hover {
    color: #9bdeea;
-   font-style: italic;
+   font-style: bold;
 }
 
 /* Navigation styling */
@@ -188,21 +189,6 @@ nav ul li {
 }
 
 
-/* quote for about section*/
-.opening-paragraph{
-    font-size: 14px;
-    text-align: left;
-
-}
-
-.second-paragraph {
-    color: #000000;
-    font-size: 20px;
-    text-indent: 10px;
-    font-weight:700;
-}
-
-
 /* Styling for blockquote and author */
 blockquote {
     font-size: 1.5em;
@@ -223,6 +209,7 @@ blockquote {
     color: #9bdeea;
     margin-top: 5px;
     text-align: center;
+    font-family: 'retrolight', 'sans-serif';
 }
 
 
