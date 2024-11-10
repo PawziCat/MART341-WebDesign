@@ -1,0 +1,243 @@
+/* Reset default styles */
+* {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+h1, h3, h5{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.opening-paragraph{
+    color: #000;
+    font-size: 20px;
+    font-weight:700;
+    text-align: left;
+}
+
+.second-paragraph{
+    font-size: 16px;
+    text-align: left;
+    text-indent: 10px;
+    text-align: center;
+}
+
+
+/* links */
+a:link {
+   color: #000;
+   text-decoration: none;
+}
+
+a:visited {
+   color: #686767;
+   text-decoration: none;
+}
+
+a:hover {
+   color: #9bdeea;
+   font-style: italic;
+}
+
+/* Navigation styling */
+nav {
+    background-color: #fefefe;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* black banner styling */
+.banner {
+    height: 250px;
+    width: 99%;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.3em;
+    text-align: center;
+    letter-spacing: 0.2em;
+    float: center;
+}
+
+/* Banner image styling */
+.banner-image {
+    width: 99%;
+    height: auto;
+    display: block;
+    justify-content: center;
+    float: center;
+}
+
+
+/* logo image styling */
+.logo-image {
+    width: 99%;
+    height: auto;
+    display: block;
+    float: center;
+}
+
+
+/* a block styling */
+.two-column-block-a {
+    display: flex;
+}
+
+.two-column-block-a div {
+    flex: 1;
+    padding: 90px;
+    text-align: left;
+}
+
+.right-section-a {
+    background-color: #9bdeea;
+}
+
+.left-section-a {
+    background-color: #d8ea98;
+}
+
+
+/* b block styling */
+.two-column-block-b {
+    display: flex;
+}
+
+.two-column-block-b div {
+    flex: 1;
+    padding: 90px;
+    text-align: center;
+}
+
+.right-section-b {
+    background-color: #f8f8f8;
+}
+
+.left-section-b {
+    background-color: #d8ea98;
+}
+
+
+/* c block styling */
+.two-column-block-c {
+    display: flex;
+}
+
+.two-column-block-c div {
+    flex: 1;
+    padding: 90px;
+    text-align: center;
+}
+
+.right-section-c {
+    background-color: #f8f8f8;
+}
+
+.left-section-c {
+    background-color: #9bdeea;
+}
+
+
+/* about block styling */
+.two-column-block-d {
+    display: flex;
+}
+
+.two-column-block-d div {
+    flex: 1;
+    padding: 50px;
+    text-align: center;
+}
+
+.right-section-d {
+    background-color: #f8f8f8;
+}
+
+.left-section-d {
+    background-color: #9bdeea;
+}
+
+
+/* quote for about section*/
+.opening-paragraph{
+    font-size: 14px;
+    text-align: left;
+
+}
+
+.second-paragraph {
+    color: #000000;
+    font-size: 20px;
+    text-indent: 10px;
+    font-weight:700;
+}
+
+
+/* Styling for blockquote and author */
+blockquote {
+    font-size: 1.5em;
+    font-style: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#quote-author {
+    font-size: 1em;
+    color: #686767;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#quote-author-about {
+    font-size: 1em;
+    color: #9bdeea;
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+/* Full-width video styling */
+.full-width-video {
+    width: 99%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Footer styling */
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
