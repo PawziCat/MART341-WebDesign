@@ -135,6 +135,14 @@ a:hover {
     margin: 10px;
 }
 
+.grid-container-about {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    gap: 20px; /* Spacing between columns */
+    padding: 5px 10px 5px 10px; /* Padding on top, bottom, and sides */
+    margin: 10px;
+}
+
 /* a block styling */
 .column-right-a {
     background-color: #f8f8f8; /* Right column background color */

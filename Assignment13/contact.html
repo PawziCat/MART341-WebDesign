@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PawziCat Graphics • Contact</title>
     <link rel="stylesheet" href="style/contact.css">
+    <link rel="stylesheet" href="style/menu.css">
     <link rel="responsive design" href="style/responsive-design.css">
 </head>
 <body>
@@ -17,19 +18,23 @@
    
 
     <!-- Navigation -->
-    <nav>
-        <ul>
-            <li><a href="contact.html">CONTACT</a></li>
-            <li><a href="index.html">GALLERY</a></li>
-            <li><a href="branding.html">BRANDING</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <div class="menu-item"><a href="contact.html">CONTACT</a></div>
+            <div class="menu-item dropdown">
+                <a href="index.html">GALLERY</a>
+                <div class="dropdown-content">
+                    <div class="dropdown-item"><a href="branding.html">BRANDING</a></div>
+                </div>
+            </div>
+            <div class="menu-item"><a href="about.html">About</a></div>
+        </nav>
+    </header> 
 
     <br>
 
     <!-- contact column block  -->
-    <div class="grid-container">
+    <div class="grid-container-contact">
         <div class="contact-column-a">
                 <div class="contact-map-a" >
                     <p id="quote-author-blue"> Location</p>

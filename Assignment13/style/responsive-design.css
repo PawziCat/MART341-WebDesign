@@ -42,7 +42,9 @@
 
     .grid-container,
     .grid-container-body,
-    .grid-container-gallery {
+    .grid-container-gallery,
+    .grid-container-contact,
+    .grid-container-about {
         flex-direction: column; /* Stack columns on top of each other */
         justify-content: center;
     }
@@ -138,10 +140,18 @@
     }
 
 
-    nav ul li {
+    nav ul {
         flex-direction: column; /* Stack links vertically */
         align-items: flex-start;
+    }
 
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .dropdown {
+        position: static; /* Inline with parent */
+        box-shadow: none;
     }
 }
 

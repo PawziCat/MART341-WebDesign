@@ -117,7 +117,7 @@ a:hover {
 
 
 /*Grid styling for gallery blocks */
- .grid-container {
+ .grid-container-contact {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two equal-width columns */
     gap: 20px; /* Spacing between columns */
@@ -149,7 +149,7 @@ a:hover {
 }
 
 .contact-section-b {
-    background-color: #f8f8f8;
+    background-color: #ffffff;
 }
 
 
