@@ -32,12 +32,14 @@ h1, h2, h3, h5{
 }
 
 .menu-item a {
-    color: #000000;
+    
     text-decoration: none;
 }
 
 .menu-item:hover {
-    background-color: #9bdeea;
+   color: #9bdeea;
+   font-weight: bold;
+   text-decoration: underline;
 }
 
 /* Dropdown Styling */
@@ -48,7 +50,7 @@ h1, h2, h3, h5{
 .dropdown-content {
     display: none; /* Initially hidden */
     position: absolute;
-    border: 1px solid #b6a6a6;
+    border: none;
     background-color: #fff;
     margin-top: 0.5em;
     z-index: 1;
@@ -71,4 +73,5 @@ h1, h2, h3, h5{
 .dropdown-item:hover a {
     color: #000000;
     background-color: #d8ea98;
+    text-decoration: underline;
 }
