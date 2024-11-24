@@ -2,41 +2,31 @@ Brianna Thompson
 
 MART342 Digital Images I
 
-November 17, 2024
+November 24, 2024
 
-## Assignment 12
+## Assignment 13
 
  
-### Page
-I am working on my online portfolio for my graphic design business I focused on all my pages as they are styled with the same sheet, I was primarily focused on my gallery page however.
+### 5 Techniques
+#### Pages
+I am working on my online portfolio for my graphic design business 
+* Contact
+* Gallery
+* Branding
+* About
+
+#### Responsive Design:
+Used flex, auto and percentages to control page layout instead of fixed numbers.
+
+#### Media Queries:
+Attempted to add media querries to help better control the responsiveness of my website.
+
+#### Navigation Menu 
+Adjusted navigagation menu to be responsive.
+
+#### Dropdown Menu
+I used the drop down menu to place my Branding page under my Gallery page.
 
 
-### 6 Techniques
-#### Size:
-* I used size to control the width of elements like the navigation bar and banner images/videos to be 100% of the window/screen. 
-* I also used it to control the width of the columns on my pages.
-
-
-#### Over Flow:
-* I used overflow to control the way that my about page displays text on narrower screens to look better and maintain page flow
-
-
-#### Border
-* I used borders on the top and bottem of my navigation bar to seperate it from the background of my page.  
-
-
-#### Margin:
-* I used margins to put space between my content and the sides of the screen
-* to break up elements like the column aranged boxes.
-
-
-#### Padding:
-* I used padding to position my text and images withing the boxes to keep them centered and from crowding the edges.
-
-
-#### Position:
-* I used position to make my navigation bare stick to the top of he window/screen when you scroll down the page.
-
-
-#### Additional Techniques:
-I for the life of me cannot get the dropdown menu to work with my navigation bar. I will likely try to figure this out next week when I can recode and style things.
+#### Additional Notes:
+I for the life of me cannot get the responsive design to work properly on both my Branding and Contact pages. I believe the Branding page is a conflicting or missing code for either my responsive css or my media queries. The map on the Contact Page however is not done through a syle sheet and I feel this is the entire reason for this page not being responsive.
