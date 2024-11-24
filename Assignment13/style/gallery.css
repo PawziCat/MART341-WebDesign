@@ -1,0 +1,340 @@
+/* Reset default styles */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins-regular', 'sans-serif';
+    line-height: 1.45em;
+    background-color: #f4f4f4;
+}
+
+p{
+    font-family: 'poppins-bold', 'sans-serif';
+    font-size: 18px;
+    line-height: 1.45em;
+}
+
+h1, h2, h3, h4, h5{
+    text-align: center;
+    font-family: 'retrolight', 'sans-serif';
+}
+
+.opening-paragraph{
+    color: #000;
+    font-size: 18px;
+    text-indent: 20px;
+    text-align: left;
+    line-height: 1.45em;
+}
+
+.second-paragraph{
+    font-size: 16px;
+    text-indent: 15px;
+    text-align: left;
+    font-weight:500;
+    text-align: center;
+    line-height: 1.45em;
+}
+
+
+/* Navigation styling */
+nav {
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    font-family: 'retrolight', sans-serif; /* Falls back to sans-serif if font fails to load */
+    letter-spacing: 2px;
+    text-shadow: .4px .4px 0 #000000; /* Top-left shadow */
+    font-size: 17px;
+    width: 100%;
+    border-top: 5px solid #d8ea98; /* border on the top */
+    border-bottom: 5px solid #d8ea98; /* border on the bottom */
+    top: 0px;
+    position: sticky;
+    margin-bottom: 6px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* links */
+a:link {
+    font-size: 20px;
+   color: #000000;
+   text-decoration: none;
+   font-family: 'retrolight', 'sans-serif'; 
+}
+
+a:visited {
+   color: #0f0f0f;
+   text-decoration: none;
+}
+
+a:hover {
+   color: #9bdeea;
+   font-weight: bold;
+   text-decoration: underline;
+}
+
+
+/* black banner styling */
+.banner {
+    height: 250px;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.3em;
+    text-align: center;
+    letter-spacing: 0.2em;
+    float: center;
+}
+
+
+/* Banner image styling */
+.banner-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    justify-content: center;
+    float: center;
+}
+
+
+/* logo image styling */
+.logo-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    float: center;
+}
+
+
+/*Grid styling for gallery blocks */
+.grid-container-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three equal-width columns */
+    gap: 25px; /* Spacing between columns */
+    padding: 5px 10px 5px 10px; /* Padding on top, bottom, and sides */
+    margin: 10px;
+}
+
+/* a right styling */
+.column-right-a {
+    background-color: #000000; /* Right column background color */
+    padding: 25px;
+    text-align: center;
+}
+
+.column-center-a {
+    background-color: #9bdeea; /* Right column background color */
+    padding: 25px;
+    text-align: center;
+}
+
+.column-left-a {
+    background-color: #f8f8f8; /* Left column background color */
+    padding: 25px;
+    text-align: center;
+}
+
+.right-section-a {
+    background-color: #000000;
+}
+
+.center-section-a {
+    background-color: #9bdeea;
+}
+
+.left-section-a {
+    background-color: #f8f8f8;
+}
+
+/* b block styling */
+.column-right-b {
+    background-color: #000000; /* Right column background color */
+    padding: 25px;
+    text-align: center;
+}
+
+.column-center-b {
+    background-color: #000000; /* Right column background color */
+    padding: 25px;
+    text-align: center;
+}
+
+.column-left-b {
+    background-color: #f8f8f8; /* Left column background color */
+    padding: 25px;
+    text-align: center;
+}
+
+.right-section-b {
+    background-color: #000000;
+}
+
+.center-section-b {
+    background-color: #000000;
+}
+
+.left-section-b {
+    background-color: #f8f8f8;
+}
+
+/* c block styling */
+.column-right-c {
+    background-color: #f8f8f8; /* c Right column background color */
+    padding: 25px;
+    text-align: center;
+}
+
+.column-center-c {
+    background-color: #f8f8f8; /* c Right column background color */
+    padding: 25px;
+    text-align: center;
+}
+
+.column-left-c {
+    background-color: #9bdeea; /* c Left column background color */
+    padding: 25px;
+    text-align: center;
+}
+
+.right-section-c {
+    background-color: #f8f8f8;
+}
+
+.center-section-c {
+    background-color: #f8f8f8;
+}
+
+.left-section-c {
+    background-color: #9bdeea;
+}
+
+/* d block styling */
+.column-right-d {
+    background-color: #f8f8f8; /* b Right column background color */
+    padding: 25px;
+    text-align: center;
+}
+
+.column-center-d {
+    background-color: #f8f8f8; /* b Right column background color */
+    padding: 25px;
+    text-align: center;
+}
+
+.column-left-d {
+    background-color: #9bdeea; /* b Left column background color */
+    padding: 25px;
+    text-align: center;
+}
+
+.right-section-d {
+    background-color: #f8f8f8;
+}
+
+.center-section-d {
+    background-color: #f8f8f8;
+}
+
+.left-section-d {
+    background-color: #9bdeea;
+}
+
+
+/* overflow rule */
+.overflow-scroll {
+    overflow: scroll;
+ }
+
+
+/*Grid styling for gallery blocks */
+ .grid-container-body {
+    display: grid;
+    grid-template-columns: 1fr; /* one column */
+    padding: 5px 10px 10px 10px; /* Padding on top, bottom, and sides */
+    margin: 10px;
+}
+
+/* body block styling */
+.column-body {
+    background-color: #d8ea98; /* body block background color */
+    padding: 25px;
+    text-align: center;
+}
+
+.body-section {
+    background-color: #d8ea98;
+}
+
+
+ /* gallery image */
+.gallery-image {
+    max-width: 100%; /* Keeps image within column width */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Removes inline spacing */
+    margin: 0 auto; /* Centers image horizontally */
+}
+
+
+/* Styling for blockquote and author */
+blockquote {
+    font-size: 18px;
+    font-style: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 1.45em;
+}
+
+#quote-author-black{
+    font-size: 18px;
+    color: #000000;
+    margin-top: 5px;
+    text-align: center;
+    font-family: 'retrolight', 'sans-serif';
+}
+
+#quote-author-blue{
+    font-size: 18px;
+    color: #9bdeea;
+    margin-top: 5px;
+    text-align: center;
+    font-family: 'retrolight', 'sans-serif';
+}
+
+
+/* Full-width video styling */
+.full-width-video {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+
+/* Footer styling */
+footer {
+    font-family: 'poppins', 'sans-serif';
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

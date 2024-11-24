@@ -1,0 +1,161 @@
+/* Media Queries for Responsive Design ----------------------------------- */
+/* 768px max width ------------------------------------------------------- */
+
+
+@media (max-width: 768px) {
+    
+    
+    blockquote {
+        font-size: 1.6em;
+    }
+
+    .quote-author-black,
+    .quote-author-about,
+    .quote-author {
+        display: block; /* Place author name on its own line */
+        font-size: 1.2em; /* Adjust author font size */
+        margin-top: 5px; /* Space between the quote and author */
+        padding-bottom: 30px;
+        color: #000000;
+        text-align: center;
+        font-family: 'retrolight', 'sans-serif';
+    }
+
+
+    .quote-author-blue {
+        display: block; /* Place author name on its own line */
+        font-size: 1.2em; /* Adjust author font size */
+        margin-top: 5px; /* Space between the quote and author */
+        padding-bottom: 30px;
+        color: #9bdeea;
+        text-align: center;
+        font-family: 'retrolight', 'sans-serif';
+    }
+
+
+    body {
+        font-family: 'poppins-regular', 'sans-serif'; 
+        line-height: 1.45em; /* Adjust font size for smaller screens */
+        background-color: #f4f4f4; 
+    }
+
+
+    .grid-container,
+    .grid-container-body,
+    .grid-container-gallery {
+        flex-direction: column; /* Stack columns on top of each other */
+        justify-content: center;
+    }
+
+    .column-right-a,
+    .column-left-a,
+    .column-right-b,
+    .column-left-b,
+    .column-right-c,
+    .column-left-c,
+    .column-right-d,
+    .column-left-d,
+    .contact-column-a,
+    .contact-column-b,
+    .contact-column-a,
+    .contact-column-b,
+    .column-body {
+        justify-content: space-between; /* Spread the columns evenly */
+    }
+
+    .column-right-a div,
+    .column-left-a div,
+    .column-right-b div,
+    .column-left-b div,
+    .column-right-c div,
+    .column-left-c div,
+    .column-right-d div,
+    .column-left-d div,
+    .contact-map-a div,
+    .contact-column-a div,
+    .contact-column-b div,
+    .contact-column-a div,
+    .contact-column-b div,
+    .column-body div {
+        align-items: center; /* Vertically Aligns Text */
+        flex: 1 1 100%; /* One item per row */
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    .column-right-a .right-section-a,
+    .column-left-a .left-section-a,
+    .column-right-b .right-section-b,
+    .column-left-b .left-section-b,
+    .column-right-c .right-section-c,
+    .column-left-c .left-section-c,
+    .column-right-d .right-section-d,
+    .column-left-d .left-section-d,
+    .contact-column-a .contact-section-a,
+    .contact-column-b .contact-section-b,
+    .three-column-gallery .right-section,
+    .contact-column-a .contact-section-a,
+    .contact-column-b .contact-section-b,
+    .column-body .body-section {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        justify-content: center; /* Center vertically */
+        padding: 20px; /* Add spacing around the content */
+    }
+
+    .logo-image {
+    max-width: 100%; /* Make sure image does not overflow */
+    max-height: 100%; 
+    }
+
+    .banner-image {
+        max-width: 100%; /* Make sure image does not overflow */
+        max-height: 100%; 
+    }
+
+    .banner {
+        max-width: 100%; /* Make sure image does not overflow */
+        max-height: 100%; 
+    }
+
+    .contact-image {
+        max-width: 100%; /* Make sure image does not overflow */
+        max-height: 100%; 
+    }
+
+    .centered-image {
+        max-width: 100%; /* Make sure image does not overflow */
+        max-height: 100%; 
+    }
+
+    .gallery-image {
+        max-width: 100%; /* Make sure image does not overflow */
+        max-height: 100%; 
+    }
+
+    .full-width-video {
+        max-width: 100%; /* Make sure video does not overflow */
+        max-height: 100%; 
+    }
+
+
+    nav ul li {
+        flex-direction: column; /* Stack links vertically */
+        align-items: flex-start;
+
+    }
+}
+
+
+
+/* 480px max width -------------------------------------------------------- */
+
+@media (max-width: 480px) {
+
+    .grid-container div {
+        padding: 10px; /* Minimal padding */
+    }
+
+    .about-section {
+        padding: 10px; /* Adjust text padding */
+    }
+}
