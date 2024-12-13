@@ -167,14 +167,16 @@ a:hover {
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    flex-direction: column;
     gap: 20px; /* Spacing between columns */
     padding: 5px 10px 5px 10px; /* Padding on top, bottom, and sides */
     margin: 10px;
 }
 
 .grid-container-about {
-    display: grid;
+    display: block;
     grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    flex-direction: column;
     gap: 20px; /* Spacing between columns */
     padding: 5px 10px 5px 10px; /* Padding on top, bottom, and sides */
     margin: 10px;
@@ -182,9 +184,11 @@ a:hover {
     overflow: auto;
 }
 
+
 .grid-container-brand {
-    display: grid;
+    display: block;
     grid-template-columns: 1fr 1fr; /* Two equal-width column */
+    flex-direction: column;
     gap: 20px; /* Spacing between columns */
     padding: 5px 10px 5px 10px; /* Padding on top, bottom, and sides */
     margin: 10px;
@@ -193,8 +197,9 @@ a:hover {
 
 
 .grid-container-body {
-    display: grid;
+    display: block;
     grid-template-columns: 1fr; /* Three equal-width columns */
+    flex-direction: column;
     gap: 25px; /* Spacing between columns */
     padding: 5px 10px 5px 10px; /* Padding on top, bottom, and sides */
     margin: 10px;
@@ -214,7 +219,9 @@ a:hover {
 .left-section,
 .center-section,
 .right-section {
+    max-width: 800px; /* Limits the width for readability */
     background-color: #000000;
+    text-align: center; /* Centers the text */
 }
 
 
@@ -239,16 +246,19 @@ a:hover {
 .right-section-about {
     background-color: #f8f8f8;
     height: 100%;
+    max-width: 800px; /* Limits the width for readability */
 }
 
 .left-section-about {
     background-color: #9bdeea;
     display: fixed;
+    max-width: 800px; /* Limits the width for readability */
 }
 
 .contact-section-about {
     background-color: #9bdeea;
     display: fixed;
+    max-width: 800px; /* Limits the width for readability */
 }
 
 
@@ -270,10 +280,12 @@ a:hover {
 
 .right-section-brand {
     background-color: #f8f8f8;
+    max-width: 800px; /* Limits the width for readability */
 }
 
 .left-section-brand {
     background-color: #000000;
+    max-width: 800px; /* Limits the width for readability */
 }
 
 

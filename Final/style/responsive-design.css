@@ -77,7 +77,7 @@
     .column-right-video div,
     .column-body div {
         align-items: center; /* Vertically Aligns Text */
-        flex: 1 1 100%; /* One item per row */
+        flex: 1 100%; /* One item per row */
         padding: 15px; /* Adjust padding for smaller screens */
     }
 
