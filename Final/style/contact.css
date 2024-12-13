@@ -126,7 +126,7 @@ a:hover {
 }
 
 /* a body block styling */
-.contact-column-a {
+.column-contact-a {
     background-color: #000000; /* contact block a background color */
     padding: 25px;
     text-align: center;
@@ -142,7 +142,7 @@ a:hover {
 }
 
 /* b body block styling */
-.contact-column-b {
+.column-contact-b {
     background-color: #d8ea98; /* contact block b background color */
     padding: 25px;
     text-align: center;
