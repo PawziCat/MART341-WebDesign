@@ -138,7 +138,7 @@
     }
 
     .contact-image {
-        max-width: 100%; /* Make sure image does not overflow */
+        max-width: 50%; /* Make sure image does not overflow */
         max-height: 50%; 
     }
 
@@ -173,9 +173,10 @@
     }
 
     /* overflow rule */
-.overflow-scroll {
-    overflow: scroll;
- }
+    .overflow-scroll {
+        overflow: scroll;
+    }
+}
 
 
 
@@ -183,7 +184,7 @@
 
 @media (max-width: 480px) {
 
-    .grid-container div {
+    .grid-container {
         padding: 10px; /* Minimal padding */
     }
 
@@ -203,38 +204,31 @@
         padding: 10px; /* Adjust text padding */
     }
 
-    .body-section-blue {
-        padding: 10px; /* Adjust text padding */
-    }
-
-    .body-section-white {
-        padding: 10px; /* Adjust text padding */
-    }
-
-    .body-section-green {
-        padding: 10px; /* Adjust text padding */
-    }
-
     .left-section-a {
         padding: 10px; /* Adjust text padding */
     }
+
     .right-section-b {
         padding: 10px; /* Adjust text padding */
     }
+
     .left-section-b {
         padding: 10px; /* Adjust text padding */
     }
+
     .right-section-c {
         padding: 10px; /* Adjust text padding */
     }
+
     .left-section-c {
         padding: 10px; /* Adjust text padding */
     }
+
     .right-section-d {
         padding: 10px; /* Adjust text padding */
     }
+
     .left-section-d {
         padding: 10px; /* Adjust text padding */
     }
-}
 }

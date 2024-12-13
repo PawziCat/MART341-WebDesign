@@ -10,8 +10,9 @@
     }
 
     .quote-author-black,
-    .quote-author-about,
-    .quote-author {
+    .quote-author-aboutS,
+    .quote-author,
+    .email-phone {
         display: block; /* Place author name on its own line */
         font-size: 1.2em; /* Adjust author font size */
         margin-top: 5px; /* Space between the quote and author */
@@ -21,17 +22,15 @@
         font-family: 'retrolight', 'sans-serif';
     }
 
-
-    .quote-author-blue {
+    .quote-author-white {
         display: block; /* Place author name on its own line */
         font-size: 1.2em; /* Adjust author font size */
         margin-top: 5px; /* Space between the quote and author */
         padding-bottom: 30px;
-        color: #9bdeea;
+        color: #f8f8f8;
         text-align: center;
         font-family: 'retrolight', 'sans-serif';
     }
-
 
     body {
         font-family: 'poppins-regular', 'sans-serif'; 
@@ -44,7 +43,8 @@
     .grid-container-body,
     .grid-container-gallery,
     .grid-container-contact,
-    .grid-container-about {
+    .grid-container-about,
+    .grid-container-brand {
         flex-direction: column; /* Stack columns on top of each other */
         justify-content: center;
     }

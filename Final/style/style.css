@@ -11,18 +11,18 @@ body {
     background-color: #f4f4f4;
 }
 
-p{
+p {
     font-family: 'poppins-bold', 'sans-serif';
     font-size: 18px;
     line-height: 1.45em;
 }
 
-h1, h2, h3, h4, h5{
+h1, h2, h3, h4, h5 {
     text-align: center;
     font-family: 'retrolight', 'sans-serif';
 }
 
-.opening-paragraph{
+.opening-paragraph {
     color: #000;
     font-size: 18px;
     text-indent: 20px;
@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5{
     line-height: 1.45em;
 }
 
-.second-paragraph{
+.second-paragraph {
     font-size: 16px;
     text-indent: 15px;
     text-align: left;
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5{
     line-height: 1.45em;
 }
 
-/* overflow rule*/
+/* overflow rule */
 .overflow-scroll {
     overflow: scroll;
  }
@@ -187,12 +187,14 @@ a:hover {
     background-color: #f8f8f8; /* Right column background color */
     padding: 25px;
     text-align: left;
+    overflow: auto; /* Allow scrolling if content overflows */
 }
 
 .column-left-about {
-    background-color: #d8ea98; /* Left column background color */
+    background-color: #000000; /* Left column background color */
     padding: 25px;
     text-align: left;
+    overflow: auto; /* Allow scrolling if content overflows */
 }
 
 .right-section-about {
@@ -200,29 +202,7 @@ a:hover {
 }
 
 .left-section-about {
-    background-color: #d8ea98;
-}
-
-
-/* brand block styling */
-.column-brand-left {
-    background-color: #000000; /* Right column background color */
-    padding: 25px;
-    text-align: left;
-}
-
-.column-brand-right {
-    background-color: #f8f8f8; /* Right column background color */
-    padding: 25px;
-    text-align: left;
-}
-
-.brand-section-left {
     background-color: #000000;
-}
-
-.brand-section-right {
-    background-color: #f8f8f8;
 }
 
 
@@ -231,12 +211,14 @@ a:hover {
     background-color: #f8f8f8; /* Right column background color */
     padding: 25px;
     text-align: center;
+    overflow: auto; /* Allow scrolling if content overflows */
 }
 
 .column-left-a {
-    background-color: #d8ea98; /* Left column background color */
+    background-color: #000000; /* Left column background color */
     padding: 25px;
     text-align: center;
+    overflow: auto; /* Allow scrolling if content overflows */
 }
 
 .right-section-a {
@@ -244,7 +226,7 @@ a:hover {
 }
 
 .left-section-a {
-    background-color: #d8ea98;
+    background-color: #000000;
 }
 
 
@@ -253,12 +235,14 @@ a:hover {
     background-color: #000000; /* Right column background color */
     padding: 25px;
     text-align: center;
+    overflow: auto; /* Allow scrolling if content overflows */
 }
 
 .column-left-b {
     background-color: #f8f8f8; /* Left column background color */
     padding: 25px;
     text-align: center;
+    overflow: auto; /* Allow scrolling if content overflows */
 }
 
 .right-section-b {
@@ -275,12 +259,14 @@ a:hover {
     background-color: #f8f8f8; /* c Right column background color */
     padding: 25px;
     text-align: center;
+    overflow: auto; /* Allow scrolling if content overflows */
 }
 
 .column-left-c {
-    background-color: #9bdeea; /* c Left column background color */
+    background-color: #000000; /* c Left column background color */
     padding: 25px;
     text-align: center;
+    overflow: auto; /* Allow scrolling if content overflows */
 }
 
 .right-section-c {
@@ -288,7 +274,7 @@ a:hover {
 }
 
 .left-section-c {
-    background-color: #9bdeea;
+    background-color: #000000;
 }
 
 
@@ -297,12 +283,14 @@ a:hover {
     background-color: #f8f8f8; /* b Right column background color */
     padding: 25px;
     text-align: center;
+    overflow: auto; /* Allow scrolling if content overflows */
 }
 
 .column-left-d {
-    background-color: #9bdeea; /* b Left column background color */
+    background-color: #000000; /* b Left column background color */
     padding: 25px;
     text-align: center;
+    overflow: auto; /* Allow scrolling if content overflows */
 }
 
 .right-section-d {
@@ -310,7 +298,7 @@ a:hover {
 }
 
 .left-section-d {
-    background-color: #9bdeea;
+    background-color: #000000;
 }
 
 
@@ -333,7 +321,7 @@ a:hover {
 
 
 /* Styling for blockquote and author */
-blockquote {
+#blockquote {
     font-size: 18px;
     font-style: bold;
     margin-bottom: 10px;
@@ -341,7 +329,7 @@ blockquote {
     line-height: 1.45em;
 }
 
-#quote-author{
+#quote-author {
     font-size: 18px;
     color: #000000;
     margin-top: 5px;
@@ -349,7 +337,7 @@ blockquote {
     font-family: 'retrolight', 'sans-serif';
 }
 
-#quote-author-about{
+#quote-author-about {
     font-size: 20px;
     color: #000000;
     margin-top: 5px;
@@ -357,7 +345,8 @@ blockquote {
     font-family: 'retrolight', 'sans-serif';
 }
 
-#email-phone{
+/* Styling for email and phone */
+#email-phone {
     font-size: 20px;
     color: #000000;
     margin-top: 5px;
@@ -365,9 +354,9 @@ blockquote {
     font-family: 'poppins-regular', 'sans-serif';
 }
 
-
-#company-identity{
-    font-size: 100px;
+/* styling for branding company identity */
+#company-identity {
+    font-size: 32px;
     color: #9bdeea;
     margin-top: 5px;
     text-align: center;
@@ -395,7 +384,7 @@ blockquote {
 
 
 /* Footer styling */
-footer {
+.footer {
     font-family: 'poppins', 'sans-serif';
     background-color: #000000;
     color: white;
