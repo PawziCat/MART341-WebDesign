@@ -5,10 +5,15 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     font-family: 'poppins-regular', 'sans-serif';
     line-height: 1.45em;
     background-color: #f4f4f4;
+    height: 100%;
 }
 
 p {
@@ -17,7 +22,11 @@ p {
     line-height: 1.45em;
 }
 
-h1, h2, h3, h4, h5 {
+h1, 
+h2, 
+h3, 
+h4, 
+h5 {
     text-align: center;
     font-family: 'retrolight', 'sans-serif';
 }
@@ -39,11 +48,6 @@ h1, h2, h3, h4, h5 {
     line-height: 1.45em;
 }
 
-/* overflow rule */
-.overflow-scroll {
-    overflow: scroll;
- }
-
 
 /* Navigation styling */
 nav {
@@ -62,14 +66,16 @@ nav {
     margin-bottom: 6px;
 }
 
-nav ul {
+nav, 
+ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-nav ul li {
+nav, ul, 
+li {
     color: #000;
     text-decoration: none;
     font-weight: bold;
@@ -131,6 +137,7 @@ a:hover {
 }
 
 
+
 /* Set a fixed height for the carousel */
 #carouselExampleIndicators {
     height: 600px;
@@ -171,6 +178,8 @@ a:hover {
     gap: 20px; /* Spacing between columns */
     padding: 5px 10px 5px 10px; /* Padding on top, bottom, and sides */
     margin: 10px;
+    height: 75%;
+    overflow: auto;
 }
 
 .grid-container-brand {
@@ -179,127 +188,135 @@ a:hover {
     gap: 20px; /* Spacing between columns */
     padding: 5px 10px 5px 10px; /* Padding on top, bottom, and sides */
     margin: 10px;
+    height: 100%;
 }
+
+
+.grid-container-body {
+    display: grid;
+    grid-template-columns: 1fr; /* Three equal-width columns */
+    gap: 25px; /* Spacing between columns */
+    padding: 5px 10px 5px 10px; /* Padding on top, bottom, and sides */
+    margin: 10px;
+}
+
+
+/* block styling */
+.column-left,
+.column-center,
+.column-right {
+    background-color: #000000; /* Right column background color */
+    padding: 25px;
+    text-align: center; 
+}
+
+
+.left-section,
+.center-section,
+.right-section {
+    background-color: #000000;
+}
+
 
 
 /* about block styling */
 .column-right-about {
     background-color: #f8f8f8; /* Right column background color */
     padding: 25px;
-    text-align: left;
+    text-align: center;
+    height: 100%;
     overflow: auto; /* Allow scrolling if content overflows */
 }
 
 .column-left-about {
-    background-color: #000000; /* Left column background color */
+    background-color: #9bdeea; /* Left column background color */
     padding: 25px;
-    text-align: left;
+    text-align: center;
+    max-width: 100%;
     overflow: auto; /* Allow scrolling if content overflows */
 }
 
 .right-section-about {
     background-color: #f8f8f8;
+    height: 100%;
 }
 
 .left-section-about {
-    background-color: #000000;
+    background-color: #9bdeea;
+    display: fixed;
+}
+
+.contact-section-about {
+    background-color: #9bdeea;
+    display: fixed;
 }
 
 
-/* a block styling */
-.column-right-a {
+
+/* brand block styling */
+.column-right-brand {
     background-color: #f8f8f8; /* Right column background color */
     padding: 25px;
-    text-align: center;
+    text-align: left;
     overflow: auto; /* Allow scrolling if content overflows */
 }
 
-.column-left-a {
+.column-left-brand {
     background-color: #000000; /* Left column background color */
     padding: 25px;
-    text-align: center;
+    text-align: left;
     overflow: auto; /* Allow scrolling if content overflows */
 }
 
-.right-section-a {
+.right-section-brand {
     background-color: #f8f8f8;
 }
 
-.left-section-a {
+.left-section-brand {
     background-color: #000000;
 }
 
 
-/* b block styling */
-.column-right-b {
-    background-color: #000000; /* Right column background color */
-    padding: 25px;
-    text-align: center;
-    overflow: auto; /* Allow scrolling if content overflows */
-}
 
-.column-left-b {
-    background-color: #f8f8f8; /* Left column background color */
-    padding: 25px;
-    text-align: center;
-    overflow: auto; /* Allow scrolling if content overflows */
-}
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: #9bdeea;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #d8ea98;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+  }
 
-.right-section-b {
-    background-color: #000000;
-}
-
-.left-section-b {
-    background-color: #f8f8f8;
-}
-
-
-/* c block styling */
-.column-right-c {
-    background-color: #f8f8f8; /* c Right column background color */
-    padding: 25px;
-    text-align: center;
-    overflow: auto; /* Allow scrolling if content overflows */
-}
-
-.column-left-c {
-    background-color: #000000; /* c Left column background color */
-    padding: 25px;
-    text-align: center;
-    overflow: auto; /* Allow scrolling if content overflows */
-}
-
-.right-section-c {
-    background-color: #f8f8f8;
-}
-
-.left-section-c {
-    background-color: #000000;
-}
+  .collapsible:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+  }
 
 
-/* d block styling */
-.column-right-d {
-    background-color: #f8f8f8; /* b Right column background color */
-    padding: 25px;
-    text-align: center;
-    overflow: auto; /* Allow scrolling if content overflows */
-}
-
-.column-left-d {
-    background-color: #000000; /* b Left column background color */
-    padding: 25px;
-    text-align: center;
-    overflow: auto; /* Allow scrolling if content overflows */
-}
-
-.right-section-d {
-    background-color: #f8f8f8;
-}
-
-.left-section-d {
-    background-color: #000000;
-}
+  .contact-map-a {
+    background-color: #9bdeea;
+}  
 
 
 .centered-image {
@@ -311,24 +328,15 @@ a:hover {
 
 
  /* contact image */
- .contact-image {
+.about-image {
     max-width: 50%; /* Keeps image within column width */
     height: auto; /* Maintains aspect ratio */
     display: block; /* Removes inline spacing */
-    float: left; 
-    margin-right: 20px;
+    margin: 0 auto; /* Centers image horizontally */
 }
 
 
-/* Styling for blockquote and author */
-#blockquote {
-    font-size: 18px;
-    font-style: bold;
-    margin-bottom: 10px;
-    text-align: center;
-    line-height: 1.45em;
-}
-
+/* Styling for author */
 #quote-author {
     font-size: 18px;
     color: #000000;
@@ -338,7 +346,7 @@ a:hover {
 }
 
 #quote-author-about {
-    font-size: 20px;
+    font-size: 18px;
     color: #000000;
     margin-top: 5px;
     text-align: center;
@@ -347,11 +355,12 @@ a:hover {
 
 /* Styling for email and phone */
 #email-phone {
-    font-size: 20px;
+    font-size: 18px;
     color: #000000;
     margin-top: 5px;
     text-align: center;
     font-family: 'poppins-regular', 'sans-serif';
+    height: 100%;
 }
 
 /* styling for branding company identity */
@@ -361,6 +370,7 @@ a:hover {
     margin-top: 5px;
     text-align: center;
     font-family: 'retrolight', 'sans-serif';
+    height: 100%;
 }
 
 
@@ -384,7 +394,7 @@ a:hover {
 
 
 /* Footer styling */
-.footer {
+footer {
     font-family: 'poppins', 'sans-serif';
     background-color: #000000;
     color: white;

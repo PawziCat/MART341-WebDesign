@@ -11,18 +11,22 @@ body {
     background-color: #f4f4f4;
 }
 
-p{
+p {
     font-family: 'poppins-bold', 'sans-serif';
     font-size: 18px;
     line-height: 1.45em;
 }
 
-h1, h2, h3, h4, h5{
+h1, 
+h2, 
+h3, 
+h4, 
+h5 {
     text-align: center;
     font-family: 'retrolight', 'sans-serif';
 }
 
-.opening-paragraph{
+.opening-paragraph {
     color: #000;
     font-size: 18px;
     text-indent: 20px;
@@ -30,8 +34,8 @@ h1, h2, h3, h4, h5{
     line-height: 1.45em;
 }
 
-.second-paragraph{
-    font-size: 16px;
+.second-paragraph {
+    font-size: 18px;
     text-indent: 15px;
     text-align: left;
     font-weight:500;
@@ -39,10 +43,6 @@ h1, h2, h3, h4, h5{
     line-height: 1.45em;
 }
 
-/* overflow rule */
-.overflow-scroll {
-    overflow: scroll;
- }
 
 
 /* Navigation styling */
@@ -62,14 +62,17 @@ nav {
     margin-bottom: 6px;
 }
 
-nav ul {
+nav,
+ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-nav ul li {
+nav, 
+ul, 
+li {
     color: #000;
     text-decoration: none;
     font-weight: bold;
@@ -132,6 +135,17 @@ a:hover {
 
 
 /*Grid styling for gallery blocks */
+.grid-container-body {
+    display: grid;
+    grid-template-columns: 1fr; /* Three equal-width columns */
+    gap: 25px; /* Spacing between columns */
+    padding: 5px 10px 5px 10px; /* Padding on top, bottom, and sides */
+    margin: 10px;
+}
+
+
+/*Grid styling for gallery blocks */
+/* two column layout */
 .grid-container-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; /* Three equal-width columns */
@@ -140,141 +154,25 @@ a:hover {
     margin: 10px;
 }
 
-/* a right styling */
-.column-left-a {
+
+/* block styling */
+.column-left,
+.column-center,
+.column-right {
     background-color: #000000; /* Left column background color */
     padding: 25px;
     text-align: center;
 }
 
-.column-center-a {
-    background-color: #000000; /* Right column background color */
-    padding: 25px;
-    text-align: center;
-}
 
-.column-right-a {
-    background-color: #000000; /* Right column background color */
-    padding: 25px;
-    text-align: center;
-}
-
-.left-section-a {
-    background-color: #000000;
-}
-
-.center-section-a {
-    background-color: #000000;
-}
-
-.right-section-a {
-    background-color: #000000;
-}
-
-/* b block styling */
-.column-right-b {
-    background-color: #000000; /* Right column background color */
-    padding: 25px;
-    text-align: center;
-}
-
-.column-center-b {
-    background-color: #000000; /* Right column background color */
-    padding: 25px;
-    text-align: center;
-}
-
-.column-left-b {
-    background-color: #000000; /* Left column background color */
-    padding: 25px;
-    text-align: center;
-}
-
-.right-section-b {
-    background-color: #000000;
-}
-
-.center-section-b {
-    background-color: #000000;
-}
-
-.left-section-b {
-    background-color: #000000;
-}
-
-/* c block styling */
-.column-right-c {
-    background-color: #000000; /* c Right column background color */
-    padding: 25px;
-    text-align: center;
-}
-
-.column-center-c {
-    background-color: #000000; /* c Right column background color */
-    padding: 25px;
-    text-align: center;
-}
-
-.column-left-c {
-    background-color: #000000; /* c Left column background color */
-    padding: 25px;
-    text-align: center;
-}
-
-.right-section-c {
-    background-color: #000000;
-}
-
-.center-section-c {
-    background-color: #000000;
-}
-
-.left-section-c {
-    background-color: #000000;
-}
-
-/* d block styling */
-.column-right-d {
-    background-color: #000000; /* b Right column background color */
-    padding: 25px;
-    text-align: center;
-}
-
-.column-center-d {
-    background-color: #000000; /* b Right column background color */
-    padding: 25px;
-    text-align: center;
-}
-
-.column-left-d {
-    background-color: #000000; /* b Left column background color */
-    padding: 25px;
-    text-align: center;
-}
-
-.right-section-d {
-    background-color: #000000;
-}
-
-.center-section-d {
-    background-color: #000000;
-}
-
-.left-section-d {
+.left-section,
+.center-section,
+.right-section {
     background-color: #000000;
 }
 
 
-
-/*Grid styling for gallery blocks */
- .grid-container-body {
-    display: grid;
-    grid-template-columns: 1fr; /* Three equal-width columns */
-    gap: 25px; /* Spacing between columns */
-    padding: 5px 10px 5px 10px; /* Padding on top, bottom, and sides */
-    margin: 10px;
-}
-
+/* block styling */
 /* green body block styling */
 .column-body-green {
     background-color: #d8ea98; /* body block background color */
@@ -286,6 +184,7 @@ a:hover {
     background-color: #d8ea98;
 }
 
+
 /* blue body block styling */
 .column-body-blue {
     background-color: #9bdeea; /* body block background color */
@@ -296,6 +195,7 @@ a:hover {
 .body-section-blue {
     background-color: #9bdeea;
 }
+
 
 /* green body block styling */
 .column-body-white {
@@ -311,23 +211,15 @@ a:hover {
 
  /* gallery image */
 .gallery-image {
-    max-width: 50%; /* Keeps image within column width */
+    max-width: 100%; /* Keeps image within column width */
     height: auto; /* Maintains aspect ratio */
     display: block; /* Removes inline spacing */
     margin: 0 auto; /* Centers image horizontally */
 }
 
 
-/* Styling for blockquote and author */
-blockquote {
-    font-size: 18px;
-    font-style: bold;
-    margin-bottom: 10px;
-    text-align: center;
-    line-height: 1.45em;
-}
-
-#quote-author-white{
+/* Styling for gallery author */
+#quote-author-white {
     font-size: 18px;
     color: #f8f8f8;
     margin-top: 5px;
@@ -335,7 +227,7 @@ blockquote {
     font-family: 'retrolight', 'sans-serif';
 }
 
-#quote-author-black{
+#quote-author-black {
     font-size: 18px;
     color: #000000;
     margin-top: 5px;
