@@ -168,6 +168,7 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two equal-width columns */
     flex-direction: column;
+    max-width: 100%; /* Limits the width for readability */
     gap: 20px; /* Spacing between columns */
     padding: 5px 10px 5px 10px; /* Padding on top, bottom, and sides */
     margin: 10px;
@@ -210,52 +211,63 @@ a:hover {
 .column-left,
 .column-center,
 .column-right {
+
     background-color: #000000; /* Right column background color */
     padding: 25px;
-    text-align: center; 
+    text-align: center;
 }
 
 
 .left-section,
 .center-section,
 .right-section {
-    max-width: 800px; /* Limits the width for readability */
+
     background-color: #000000;
     text-align: center; /* Centers the text */
+
 }
 
 
 
 /* about block styling */
 .column-right-about {
+    align-items: center;
     background-color: #f8f8f8; /* Right column background color */
     padding: 25px;
     text-align: center;
+    display: fixed;
     height: 100%;
     overflow: auto; /* Allow scrolling if content overflows */
 }
 
 .column-left-about {
+    align-items: center;
     background-color: #9bdeea; /* Left column background color */
     padding: 25px;
     text-align: center;
+    display: fixed;
     max-width: 100%;
     overflow: auto; /* Allow scrolling if content overflows */
 }
 
 .right-section-about {
+    text-align: center;
     background-color: #f8f8f8;
+    display: fixed;
     height: 100%;
     max-width: 800px; /* Limits the width for readability */
 }
 
 .left-section-about {
+    text-align: center;
     background-color: #9bdeea;
     display: fixed;
     max-width: 800px; /* Limits the width for readability */
 }
 
 .contact-section-about {
+    text-align: center;
+    align-items: center;
     background-color: #9bdeea;
     display: fixed;
     max-width: 800px; /* Limits the width for readability */
@@ -293,7 +305,7 @@ a:hover {
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
     background-color: #9bdeea;
-    color: #444;
+    color: #000000;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -341,9 +353,10 @@ a:hover {
 
  /* contact image */
 .about-image {
-    max-width: 50%; /* Keeps image within column width */
+    text-align: center;
+    max-width: 35%; /* Keeps image within column width */
     height: auto; /* Maintains aspect ratio */
-    display: block; /* Removes inline spacing */
+    display: grid; /* Removes inline spacing */
     margin: 0 auto; /* Centers image horizontally */
 }
 
@@ -359,7 +372,7 @@ a:hover {
 
 #quote-author-about {
     font-size: 18px;
-    color: #000000;
+    color: #f8f8f8;
     margin-top: 5px;
     text-align: center;
     font-family: 'retrolight', 'sans-serif';
@@ -368,11 +381,12 @@ a:hover {
 /* Styling for email and phone */
 #email-phone {
     font-size: 18px;
-    color: #000000;
+    color: #f8f8f8;
     margin-top: 5px;
     text-align: center;
     font-family: 'poppins-regular', 'sans-serif';
     height: 100%;
+    text-align: center;
 }
 
 /* styling for branding company identity */

@@ -168,7 +168,10 @@ a:hover {
 .left-section,
 .center-section,
 .right-section {
+    max-width: 800px; /* Limits the width for readability */
     background-color: #000000;
+    text-align: center; /* Centers the text */
+    margin: auto;
 }
 
 
