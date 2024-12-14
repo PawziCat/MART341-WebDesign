@@ -2,31 +2,42 @@ Brianna Thompson
 
 MART342 Digital Images I
 
-November 24, 2024
+December 14, 2024
 
-## Assignment 13
+## Final
 
  
 ### 5 Techniques
-#### Pages
+#### Three or More Pages
 I am working on my online portfolio for my graphic design business 
-* Contact
 * Gallery
+* Videos
 * Branding
 * About
 
-#### Responsive Design:
-Used flex, auto and percentages to control page layout instead of fixed numbers.
+#### A clear, well-organized layout with strong usability.
+I used a grids, containers and sections to organize my layout. This was also used to create a responsive layout, unfortunately I could not for the life of me get my responsive coding to work properly on most of the pages, excluding the portfolio/gallery page. It is usable, but to my frustration is not entirely pretty. My video page is a disaster on mobile, the videos went completely off the side of the page.
 
-#### Media Queries:
-Attempted to add media querries to help better control the responsiveness of my website.
+#### Use of an external stylesheet.
+* styles
+* fonts
+* menu
+* responsive-design
+* bootstrap.bundle
+* gallery
+* 
+#### Apply at least one font.
+I used the fonts retrolight and poppins.
 
-#### Navigation Menu 
-Adjusted navigagation menu to be responsive.
+#### At least one image (preferably your own or fair-use images).
+I used my own artwork or placeholder images that I created.
 
-#### Dropdown Menu
-I used the drop down menu to place my Branding page under my Gallery page.
+#### At least one embedded media element (video, audio, Google Maps, etc.).
+I embedded both videos and a google map.
+#### Structural and semantic HTML markup with a clean and organized page layout.
 
+#### Legible, well-commented, and error-free code
+My code is well organized and noted so that other people could work on teh site if needed. There were no code errors.
 
 #### Additional Notes:
-I for the life of me cannot get the responsive design to work properly on both my Branding and Contact pages. I believe the Branding page is a conflicting or missing code for either my responsive css or my media queries. The map on the Contact Page however is not done through a syle sheet and I feel this is the entire reason for this page not being responsive.
+I couldn't figure out where I needed to add or change code to make my carousel loop instead of becoming stuck after four images.
