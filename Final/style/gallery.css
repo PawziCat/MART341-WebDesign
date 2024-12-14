@@ -200,7 +200,7 @@ a:hover {
 }
 
 
-/* green body block styling */
+/* white body block styling */
 .column-body-white {
     background-color: #f8f8f8; /* body block background color */
     padding: 25px;
@@ -209,6 +209,18 @@ a:hover {
 
 .body-section-white {
     background-color: #f8f8f8;
+}
+
+
+/* black body block styling */
+.column-body-black {
+    background-color: #000000; /* body block background color */
+    padding: 25px;
+    text-align: center;
+}
+
+.body-section-black {
+    background-color: #000000;
 }
 
 
